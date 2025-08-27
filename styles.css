@@ -13,6 +13,7 @@
   flex-direction: column;
   padding: 10px;
   background-color: darkblue;
+  margin: 10px;
 }
 
 .teamname {
@@ -23,9 +24,9 @@
 
 .score {
   color: red;
-  font-size: xx-large;
-  font-weight: bolder;
+  font-size: 50px;
   justify-content: center;
+  font-family: cursed-timer;
 }
 
 #reset {
@@ -42,4 +43,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@font-face {
+  font-family: cursed-timer;
+  src: url(CursedTimerUlil-Aznm.ttf);
 }
