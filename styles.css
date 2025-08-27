@@ -1,0 +1,45 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px;
+  justify-content: left;
+}
+
+.scoreboard {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  padding: 10px;
+  background-color: darkblue;
+}
+
+.teamname {
+  color: white;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.score {
+  color: red;
+  font-size: xx-large;
+  font-weight: bolder;
+  justify-content: center;
+}
+
+#reset {
+  background-color: aqua;
+  width: 100%;
+  height: 50px;
+}
+
+#reset:hover {
+  background-color: red;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
